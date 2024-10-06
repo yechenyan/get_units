@@ -1,0 +1,488 @@
+[
+  {
+    "unit": "a",
+    "name": "year",
+    "type": "integer",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_ammonia/srd_range_draft/x2x_delivery_ammonia_type=metadata.json"
+  },
+  {
+    "unit": "€/MWh",
+    "name": "cost_var_e",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_ammonia/srd_range_draft/x2x_delivery_ammonia_type=metadata.json"
+  },
+  {
+    "unit": "MW",
+    "name": "capacity_p_abs_new_max",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "MWh/MWh",
+    "name": "conversion_factor_sec_hydrogen_orig",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "€/MW",
+    "name": "cost_inv_p",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "€/MW*a",
+    "name": "cost_fix_p",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "a",
+    "name": "lifetime",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "%",
+    "name": "wacc",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_hydrogen_pipeline_new_1/srd_range_draft/x2x_delivery_hydrogen_pipeline_new_1_type=metadata.json"
+  },
+  {
+    "unit": "€/MWj",
+    "name": "cost_var_e",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_delivery_methane_pipeline_0/srd_range_draft/x2x_delivery_methane_pipeline_0_type=metadata.json"
+  },
+  {
+    "unit": "EUR/MW",
+    "name": "cost_inv_p",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_g2p_pemfc_ls_1/srd_range_draft/x2x_g2p_pemfc_ls_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/MW*a",
+    "name": "cost_fix_p",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_g2p_pemfc_ls_1/srd_range_draft/x2x_g2p_pemfc_ls_1_type=metadata.json"
+  },
+  {
+    "unit": "€/t",
+    "name": "cost_var_e",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_import_ammonia/srd_range_draft/x2x_import_ammonia_type=metadata.json"
+  },
+  {
+    "unit": "t/MWh",
+    "name": "conversion_factor_emi_co2_reusable",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_other_biogas_treatment/srd_range_draft/x2x_other_biogas_treatment_type=metadata.json"
+  },
+  {
+    "unit": "MWh/t",
+    "name": "conversion_factor_sec_elec",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_other_dac_ht_1/srd_range_draft/x2x_other_dac_ht_1_type=metadata.json"
+  },
+  {
+    "unit": "t/t",
+    "name": "conversion_factor_emi_co2_neg_air_dacc",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_other_dac_ht_1/srd_range_draft/x2x_other_dac_ht_1_type=metadata.json"
+  },
+  {
+    "unit": "MEUR/Mt",
+    "name": "cost_inv_w",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_other_dac_ht_1/srd_range_draft/x2x_other_dac_ht_1_type=metadata.json"
+  },
+  {
+    "unit": "MEUR/Mt*a",
+    "name": "cost_fix_w",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_other_dac_ht_1/srd_range_draft/x2x_other_dac_ht_1_type=metadata.json"
+  },
+  {
+    "unit": "%",
+    "name": "sto_self_discharge",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_storage_hydrogen_lohc_1/srd_range_draft/x2x_storage_hydrogen_lohc_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/MWh",
+    "name": "cost_inv_e",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_storage_hydrogen_lohc_1/srd_range_draft/x2x_storage_hydrogen_lohc_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/MW/a",
+    "name": "cost_fix_p",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_storage_hydrogen_lohc_1/srd_range_draft/x2x_storage_hydrogen_lohc_1_type=metadata.json"
+  },
+  {
+    "unit": "MWh",
+    "name": "capacity_e_max",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_storage_hydrogen_new_1/srd_range_draft/x2x_storage_hydrogen_new_1_type=metadata.json"
+  },
+  {
+    "unit": "kg/t",
+    "name": "ef_pri_crude_oil_emi_co2_f_x2x",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_oref_0/srd_range_draft/x2x_x2liquid_oref_0_type=metadata.json"
+  },
+  {
+    "unit": "percent",
+    "name": "availability_constant",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "MWh/MWh",
+    "name": "conversion_factor_sec_elec",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/kW*a",
+    "name": "cost_fix_capacity",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/kW",
+    "name": "cost_inv_capacity",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "EUR/kWh",
+    "name": "cost_var",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "a",
+    "name": "lifetime",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "percent",
+    "name": "wacc",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/gianm/SEDOS_x2x_sector/x2x_x2liquid_ft_1/srd_range_draft/x2x_x2liquid_ft_1_type=metadata.json"
+  },
+  {
+    "unit": "vehicles",
+    "name": "capacity_tra_inst_0",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "pkm",
+    "name": "conversion_factor_exo_road_bus_short_pkm",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "kWh/1km",
+    "name": "conversion_factor_sec_hydrogen",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "EUR/(vehicle*a)",
+    "name": "cost_fix_tra",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "EUR/vehicle",
+    "name": "cost_inv_tra",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "EUR/pkm",
+    "name": "cost_var_tra",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "km/a",
+    "name": "mileage",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "persons/vehicle",
+    "name": "occupancy_rate",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_fcev_pass_short_hydrogen_0/srd_range_draft/tra_road_bus_fcev_pass_short_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "kg_CH4/TJ_input",
+    "name": "ef_sec_diesel_emi_ch4_f_tra",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_hyb_pass_short_diesel_0/srd_range_draft/tra_road_bus_hyb_pass_short_diesel_0_type=metadata.json"
+  },
+  {
+    "unit": "t_CO2/TJ_input",
+    "name": "ef_sec_diesel_emi_co2_f_tra",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_hyb_pass_short_diesel_0/srd_range_draft/tra_road_bus_hyb_pass_short_diesel_0_type=metadata.json"
+  },
+  {
+    "unit": "kg_N2O/TJ_input",
+    "name": "ef_sec_diesel_emi_n2o_f_tra",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_bus_hyb_pass_short_diesel_0/srd_range_draft/tra_road_bus_hyb_pass_short_diesel_0_type=metadata.json"
+  },
+  {
+    "unit": "kWh/100km",
+    "name": "conversion_factor_sec_hydrogen",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_fcev_pass_hydrogen_0/srd_range_draft/tra_road_mcar_fcev_pass_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "kWh",
+    "name": "capacity_e_inst_0",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_battery_flex_uni_0/srd_range_draft/tra_road_mcar_bev_pass_battery_flex_uni_0_type=metadata.json"
+  },
+  {
+    "unit": "%",
+    "name": "efficiency_sto_in",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_battery_flex_uni_0/srd_range_draft/tra_road_mcar_bev_pass_battery_flex_uni_0_type=metadata.json"
+  },
+  {
+    "unit": "kWh/kWh",
+    "name": "sto_max_timeseries",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_battery_flex_uni_0/srd_range_draft/tra_road_mcar_bev_pass_battery_flex_uni_0_type=metadata.json"
+  },
+  {
+    "unit": "%/h",
+    "name": "sto_self_discharge",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_battery_flex_uni_0/srd_range_draft/tra_road_mcar_bev_pass_battery_flex_uni_0_type=metadata.json"
+  },
+  {
+    "unit": "kW",
+    "name": "capacity_tra_connection_max",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_wallbox_flex_uni_g2v_0/srd_range_draft/tra_road_mcar_bev_pass_wallbox_flex_uni_g2v_0_type=metadata.json"
+  },
+  {
+    "unit": "kW/kW",
+    "name": "capacity_tra_connection_timeseries",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_mcar_bev_pass_wallbox_flex_uni_g2v_0/srd_range_draft/tra_road_mcar_bev_pass_wallbox_flex_uni_g2v_0_type=metadata.json"
+  },
+  {
+    "unit": "tkm",
+    "name": "conversion_factor_exo_road_ltruck_tkm",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_ltruck_fcev_frei_hydrogen_0/srd_range_draft/tra_road_ltruck_fcev_frei_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "t/vehicle",
+    "name": "tonnage",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_road_ltruck_fcev_frei_hydrogen_0/srd_range_draft/tra_road_ltruck_fcev_frei_hydrogen_0_type=metadata.json"
+  },
+  {
+    "unit": "kW/kW",
+    "name": "capacity_tra_connection_timeseries_car_flex",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_timeseries/srd_range_draft/tra_timeseries_type=metadata.json"
+  },
+  {
+    "unit": "[0,1]",
+    "name": "sto_max_timeseries_car",
+    "type": "float array",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_timeseries/srd_range_draft/tra_timeseries_type=metadata.json"
+  },
+  {
+    "unit": "Gpkm",
+    "name": "exo_air_europ_pkm",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_scalars/srd_range_draft/tra_scalars_type=metadata.json"
+  },
+  {
+    "unit": "Gtkm",
+    "name": "exo_rail_long_tkm",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_scalars/srd_range_draft/tra_scalars_type=metadata.json"
+  },
+  {
+    "unit": "GWh",
+    "name": "exo_road_agri_diesel",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_scalars/srd_range_draft/tra_scalars_type=metadata.json"
+  },
+  {
+    "unit": "pkm or tkm or kWh",
+    "name": "demand_annual",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/hedda_gardian/SEDOS_transport_sector/tra_demand/srd_range_draft/tra_demand_type=metadata.json"
+  },
+  {
+    "unit": "PJ",
+    "name": "conversion_factor_iip_hot_water",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_hot_water_elc_0/srd_range_draft/ind_automobile_boiler_hot_water_elc_0_type=metadata.json"
+  },
+  {
+    "unit": "PJ/PJ",
+    "name": "conversion_factor_sec_elec_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_hot_water_elc_0/srd_range_draft/ind_automobile_boiler_hot_water_elc_0_type=metadata.json"
+  },
+  {
+    "unit": "GW",
+    "name": "capacity_p_abs_new_max",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_hot_water_elc_0/srd_range_draft/ind_automobile_boiler_hot_water_elc_0_type=metadata.json"
+  },
+  {
+    "unit": "Kt/PJ",
+    "name": "ef_sec_methane_emi_ch4_f_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_hot_water_gas_0/srd_range_draft/ind_automobile_boiler_hot_water_gas_0_type=metadata.json"
+  },
+  {
+    "unit": "Kt/PJ",
+    "name": "ef_sec_methane_emi_co2_f_ind",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_hot_water_gas_0/srd_range_draft/ind_automobile_boiler_hot_water_gas_0_type=metadata.json"
+  },
+  {
+    "unit": "M€/PJ",
+    "name": "cost_var_e",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_space_heat_bio_1/srd_range_draft/ind_automobile_boiler_space_heat_bio_1_type=metadata.json"
+  },
+  {
+    "unit": "M€/GW",
+    "name": "cost_inv_p",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_boiler_space_heat_bio_1/srd_range_draft/ind_automobile_boiler_space_heat_bio_1_type=metadata.json"
+  },
+  {
+    "unit": "Million units",
+    "name": "conversion_factor_iip_auto_btry_hcv_bev",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_hcv_bev_btry_0/srd_range_draft/ind_automobile_hcv_bev_btry_0_type=metadata.json"
+  },
+  {
+    "unit": "PJ/Million units",
+    "name": "conversion_factor_sec_elec_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_hcv_bev_btry_0/srd_range_draft/ind_automobile_hcv_bev_btry_0_type=metadata.json"
+  },
+  {
+    "unit": "M€/Million units",
+    "name": "cost_inv_w",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_hcv_bev_btry_1/srd_range_draft/ind_automobile_hcv_bev_btry_1_type=metadata.json"
+  },
+  {
+    "unit": "Million units/Million units",
+    "name": "conversion_factor_iip_auto_btry_hcv_bev",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_automobile_hcv_bev_fasmbl_0/srd_range_draft/ind_automobile_hcv_bev_fasmbl_0_type=metadata.json"
+  },
+  {
+    "unit": "Kt",
+    "name": "conversion_factor_emi_co2_reusable",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/helper_co2_delivery/srd_range_draft/helper_co2_delivery_type=metadata.json"
+  },
+  {
+    "unit": "M€/Mt",
+    "name": "cost_var_w",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/helper_co2_delivery/srd_range_draft/helper_co2_delivery_type=metadata.json"
+  },
+  {
+    "unit": "PJ, Mt",
+    "name": "conversion_factor_emi_co2_neg_air_dacc",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/helper_co2_delivery/srd_range_draft/helper_co2_delivery_type=metadata.json"
+  },
+  {
+    "unit": "kt/Kt",
+    "name": "conversion_factor_emi_co2_neg_fuel_cc_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/helper_co2_delivery/srd_range_draft/helper_co2_delivery_type=metadata.json"
+  },
+  {
+    "unit": "Kt/Kt",
+    "name": "conversion_factor_emi_co2_reusable",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/helper_co2_storage_permanent/srd_range_draft/helper_co2_storage_permanent_type=metadata.json"
+  },
+  {
+    "unit": "Mt",
+    "name": "conversion_factor_exo_aluminum",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_aluminum_pri_0/srd_range_draft/ind_aluminum_pri_0_type=metadata.json"
+  },
+  {
+    "unit": "PJ/Mt",
+    "name": "conversion_factor_sec_waste_heat_high_aluminum",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_aluminum_pri_0/srd_range_draft/ind_aluminum_pri_0_type=metadata.json"
+  },
+  {
+    "unit": "Mt/Mt",
+    "name": "conversion_factor_iip_aluminum_alumina",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_aluminum_pri_0/srd_range_draft/ind_aluminum_pri_0_type=metadata.json"
+  },
+  {
+    "unit": "kt/Mt",
+    "name": "ef_sec_methane_emi_ch4_f_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_aluminum_pri_0/srd_range_draft/ind_aluminum_pri_0_type=metadata.json"
+  },
+  {
+    "unit": "kt/Mt",
+    "name": "ef_sec_methane_emi_co2_f_ind",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_aluminum_pri_0/srd_range_draft/ind_aluminum_pri_0_type=metadata.json"
+  },
+  {
+    "unit": "Kt/Mt",
+    "name": "ef_sec_methane_emi_ch4_f_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_chemical_btx_scrac_nap_0/srd_range_draft/ind_chemical_btx_scrac_nap_0_type=metadata.json"
+  },
+  {
+    "unit": "Kt/Mt",
+    "name": "ef_sec_methane_emi_co2_f_ind",
+    "type": "text",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_chemical_btx_scrac_nap_0/srd_range_draft/ind_chemical_btx_scrac_nap_0_type=metadata.json"
+  },
+  {
+    "unit": "Mt/PJ",
+    "name": "conversion_factor_iip_chemi_methanol",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_chemical_gasoline_mtg_tra_1/srd_range_draft/ind_chemical_gasoline_mtg_tra_1_type=metadata.json"
+  },
+  {
+    "unit": "M€/Kt CO2-eq",
+    "name": "cost_var_w",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_agri_improved_1/srd_range_draft/ind_agri_improved_1_type=metadata.json"
+  },
+  {
+    "unit": "Kt/Million units",
+    "name": "ef_exo_agri_livestock_emi_ch4_p_ind",
+    "type": "float",
+    "from": "https://databus.openenergyplatform.org/anik/SEDOS_industry_sector/ind_agri_improved_1/srd_range_draft/ind_agri_improved_1_type=metadata.json"
+  }
+]
