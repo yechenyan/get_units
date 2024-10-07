@@ -1,16 +1,16 @@
 # GET UNITS
 
-Abrufen aller Einheitentypen von https://databus.openenergyplatform.org/sedos-project/collections/sedos-project
+Retrieve all unit types from https://databus.openenergyplatform.org/sedos-project/collections/sedos-project
 
 ```
-Dateien
-｜- all_units.json Alle Einheiten in der Tabelle, nicht bereinigt
-｜- main.py Skriptcode
-｜- opm.txt URL der Tabelle
-｜- unique_units.json Bereinigte Einheiten (Eindeutigkeit basierend auf Einheit + Typ)
+Files
+｜- all_units.json  All units in the table, not cleaned
+｜- main.py  Skriptcode
+｜- opm.txt  URL of the table
+｜- unique_units.json Cleaned units (uniqueness based on unit + type)
 ```
 
-## Starten
-Skript-Ausführungsweise:
+## Start
+Script Execution:
 ``
 python main.py
